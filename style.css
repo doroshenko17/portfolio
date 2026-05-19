@@ -17,6 +17,22 @@ header{
     padding: 10px;
 }
 
+
+.link-nav{
+    border: 2px solid black;
+    color: #4E2982;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 5px 3px 0 #4E2982;
+}
+
+nav{
+    padding: 25px 0px 10px 10px;
+}
+
 main{
     color: #4E2982;
     font-size: 20px;
@@ -27,19 +43,25 @@ main{
     margin: 0px auto 0px auto;
 }
 
-header a:hover{
+.link-nav:hover{
+    color: black;
+}
+
+.link-header:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(129, 129, 129);
     box-shadow: 3px 5px 3px 0 black;
     transition: all 3s;
 }
 
-main a :hover{
-    color: black;
+.link-nav:hover:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(129, 129, 129);
+    box-shadow: 3px 5px 3px 0 black;
     transition: all 3s;
 }
 
-.rrr:hover{
+h2:hover{
     color: black;
     background-color: rgb(195, 185, 255);
 }
@@ -53,18 +75,3 @@ p:hover{
     color: black;
     background-color: rgb(195, 185, 255);
 }
-
-.ppp:hover{
-    color: black;
-    background-color: rgb(195, 185, 255);
-}
-
-.sss:hover{
-    color: black;
-    background-color: rgb(195, 185, 255);
-}
-
-.ccc:hover{
-    color: black;
-    background-color: rgb(195, 185, 255);
-}.
